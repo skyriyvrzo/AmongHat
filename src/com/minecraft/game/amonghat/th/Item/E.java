@@ -22,7 +22,7 @@ public class E implements Listener {
 		String name = meta.getDisplayName();
 		Block block = event.getBlock();
 		
-		if(name.equals("§aEnchanted Snow Block")) {
+		if(name.equals("&dBanana Among Hat")) {
 			block.setType(Material.AIR);
 			event.setCancelled(true);
 		}
