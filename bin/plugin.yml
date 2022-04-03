@@ -6,6 +6,63 @@ version: 1.18.2
 main: com.minecraft.game.amonghat.th.A1
 
 commands:
-  aspectoftheend:
-    description: aspectoftheend
-    usage: /aspectoftheend
+  banana:
+    description: blahblahblah
+    usage: /banana
+  black:
+    description: blahblahblah
+    usage: /black  
+  blue:
+    description: blahblahblah
+    usage: /blue
+  brown:
+    description: blahblahblah
+    usage: /brown
+  coral:
+    description: blahblahblah
+    usage: /coral
+  cyan:
+    description: blahblahblah
+    usage: /cyan    
+  fortegreen:
+    description: blahblahblah
+    usage: /fortegreen
+  gray:
+    description: blahblahblah
+    usage: /gray
+  green:
+    description: blahblahblah
+    usage: /green
+  lime:
+    description: blahblahblah
+    usage: /lime
+  maloon:
+    description: blahblahblah
+    usage: /maloon
+  olive:
+    description: blahblahblah
+    usage: /olive    
+  orange:
+    description: blahblahblah
+    usage: /orange
+  pink:
+    description: blahblahblah
+    usage: /pink
+  purple:
+    description: blahblahblah
+    usage: /purple
+  red:
+    description: blahblahblah
+    usage: /red    
+  rose:
+    description: blahblahblah
+    usage: /rose
+  tan:
+    description: blahblahblah
+    usage: /tan    
+  white:
+    description: blahblahblah
+    usage: /white
+  yellow:
+    description: blahblahblah
+    usage: /yellow    
