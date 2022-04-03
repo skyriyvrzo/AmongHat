@@ -1,0 +1,11 @@
+name: Among Hat
+author: Get
+description: Hallo
+version: 1.18.2
+
+main: com.minecraft.game.amonghat.th.A1
+
+commands:
+  aspectoftheend:
+    description: aspectoftheend
+    usage: /aspectoftheend
