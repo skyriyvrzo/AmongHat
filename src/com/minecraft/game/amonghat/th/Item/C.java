@@ -1,5 +1,8 @@
 package com.minecraft.game.amonghat.th.Item;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
@@ -53,6 +56,9 @@ public class C {
 		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
 		ItemMeta meta = item.getItemMeta();
 		meta.setDisplayName("§dBanana Among Hat");
+		List<String> lore = new ArrayList<>();
+		lore.add("§9Among Hat");
+		meta.setLore(lore);
 		item.setItemMeta(meta);
 		banana = item;
 	}
@@ -60,6 +66,9 @@ public class C {
 		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
 		ItemMeta meta = item.getItemMeta();
 		meta.setDisplayName("§dBlack Among Hat");
+		List<String> lore = new ArrayList<>();
+		lore.add("§9Among Hat");
+		meta.setLore(lore);
 		item.setItemMeta(meta);
 		black = item;
 	}
@@ -67,6 +76,9 @@ public class C {
 		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
 		ItemMeta meta = item.getItemMeta();
 		meta.setDisplayName("§dBlue Among Hat");
+		List<String> lore = new ArrayList<>();
+		lore.add("§9Among Hat");
+		meta.setLore(lore);
 		item.setItemMeta(meta);
 		blue = item;
 	}
@@ -74,6 +86,9 @@ public class C {
 		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
 		ItemMeta meta = item.getItemMeta();
 		meta.setDisplayName("§dBrown Among Hat");
+		List<String> lore = new ArrayList<>();
+		lore.add("§9Among Hat");
+		meta.setLore(lore);
 		item.setItemMeta(meta);
 		brown = item;
 	}
@@ -81,6 +96,9 @@ public class C {
 		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
 		ItemMeta meta = item.getItemMeta();
 		meta.setDisplayName("§dCoral Among Hat");
+		List<String> lore = new ArrayList<>();
+		lore.add("§9Among Hat");
+		meta.setLore(lore);
 		item.setItemMeta(meta);
 		coral = item;
 	}
@@ -88,6 +106,9 @@ public class C {
 		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
 		ItemMeta meta = item.getItemMeta();
 		meta.setDisplayName("§dCyan Among Hat");
+		List<String> lore = new ArrayList<>();
+		lore.add("§9Among Hat");
+		meta.setLore(lore);
 		item.setItemMeta(meta);
 		cyan = item;
 	}
@@ -95,6 +116,9 @@ public class C {
 		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
 		ItemMeta meta = item.getItemMeta();
 		meta.setDisplayName("§dFortegreen Among Hat");
+		List<String> lore = new ArrayList<>();
+		lore.add("§9Among Hat");
+		meta.setLore(lore);
 		item.setItemMeta(meta);
 		fortegreen = item;
 	}
@@ -102,6 +126,9 @@ public class C {
 		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
 		ItemMeta meta = item.getItemMeta();
 		meta.setDisplayName("§dGray Among Hat");
+		List<String> lore = new ArrayList<>();
+		lore.add("§9Among Hat");
+		meta.setLore(lore);
 		item.setItemMeta(meta);
 		gray = item;
 	}
@@ -109,6 +136,9 @@ public class C {
 		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
 		ItemMeta meta = item.getItemMeta();
 		meta.setDisplayName("§dGreen Among Hat");
+		List<String> lore = new ArrayList<>();
+		lore.add("§9Among Hat");
+		meta.setLore(lore);
 		item.setItemMeta(meta);
 		green = item;
 	}
@@ -116,6 +146,9 @@ public class C {
 		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
 		ItemMeta meta = item.getItemMeta();
 		meta.setDisplayName("§dLime Among Hat");
+		List<String> lore = new ArrayList<>();
+		lore.add("§9Among Hat");
+		meta.setLore(lore);
 		item.setItemMeta(meta);
 		lime = item;
 	}
@@ -123,6 +156,9 @@ public class C {
 		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
 		ItemMeta meta = item.getItemMeta();
 		meta.setDisplayName("§dMaloon Among Hat");
+		List<String> lore = new ArrayList<>();
+		lore.add("§9Among Hat");
+		meta.setLore(lore);
 		item.setItemMeta(meta);
 		maloon = item;
 	}
@@ -130,6 +166,9 @@ public class C {
 		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
 		ItemMeta meta = item.getItemMeta();
 		meta.setDisplayName("§dOlive Among Hat");
+		List<String> lore = new ArrayList<>();
+		lore.add("§9Among Hat");
+		meta.setLore(lore);
 		item.setItemMeta(meta);
 		olive = item;
 	}
@@ -137,6 +176,9 @@ public class C {
 		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
 		ItemMeta meta = item.getItemMeta();
 		meta.setDisplayName("§dOrange Among Hat");
+		List<String> lore = new ArrayList<>();
+		lore.add("§9Among Hat");
+		meta.setLore(lore);
 		item.setItemMeta(meta);
 		orange = item;
 	}
@@ -144,6 +186,9 @@ public class C {
 		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
 		ItemMeta meta = item.getItemMeta();
 		meta.setDisplayName("§dPink Among Hat");
+		List<String> lore = new ArrayList<>();
+		lore.add("§9Among Hat");
+		meta.setLore(lore);
 		item.setItemMeta(meta);
 		pink = item;
 	}
@@ -151,6 +196,9 @@ public class C {
 		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
 		ItemMeta meta = item.getItemMeta();
 		meta.setDisplayName("§dPurple Among Hat");
+		List<String> lore = new ArrayList<>();
+		lore.add("§9Among Hat");
+		meta.setLore(lore);
 		item.setItemMeta(meta);
 		purple = item;
 	}	
@@ -158,6 +206,9 @@ public class C {
 		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
 		ItemMeta meta = item.getItemMeta();
 		meta.setDisplayName("§dRed Among Hat");
+		List<String> lore = new ArrayList<>();
+		lore.add("§9Among Hat");
+		meta.setLore(lore);
 		item.setItemMeta(meta);
 		red = item;
 	}
@@ -165,6 +216,9 @@ public class C {
 		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
 		ItemMeta meta = item.getItemMeta();
 		meta.setDisplayName("§dRose Among Hat");
+		List<String> lore = new ArrayList<>();
+		lore.add("§9Among Hat");
+		meta.setLore(lore);
 		item.setItemMeta(meta);
 		rose = item;
 	}
@@ -172,6 +226,9 @@ public class C {
 		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
 		ItemMeta meta = item.getItemMeta();
 		meta.setDisplayName("§dTan Among Hat");
+		List<String> lore = new ArrayList<>();
+		lore.add("§9Among Hat");
+		meta.setLore(lore);
 		item.setItemMeta(meta);
 		tan = item;
 	}
@@ -179,6 +236,9 @@ public class C {
 		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
 		ItemMeta meta = item.getItemMeta();
 		meta.setDisplayName("§dWhite Among Hat");
+		List<String> lore = new ArrayList<>();
+		lore.add("§9Among Hat");
+		meta.setLore(lore);
 		item.setItemMeta(meta);
 		white = item;
 	}
@@ -186,6 +246,9 @@ public class C {
 		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
 		ItemMeta meta = item.getItemMeta();
 		meta.setDisplayName("§dYellow Among Hat");
+		List<String> lore = new ArrayList<>();
+		lore.add("§9Among Hat");
+		meta.setLore(lore);
 		item.setItemMeta(meta);
 		yellow = item;
 	}

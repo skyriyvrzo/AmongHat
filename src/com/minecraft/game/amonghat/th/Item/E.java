@@ -1,5 +1,7 @@
 package com.minecraft.game.amonghat.th.Item;
 
+import java.util.List;
+
 import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
@@ -19,10 +21,10 @@ public class E implements Listener {
 		Player player = event.getPlayer();
 		ItemStack item = player.getInventory().getItemInMainHand();
 		ItemMeta meta = item.getItemMeta();
-		String name = meta.getDisplayName();
+		List<String> lore = meta.getLore();
 		Block block = event.getBlock();
-		
-		if(name.equals("&dBanana Among Hat")) {
+
+		if(lore.equals("§9Among Hat")) {
 			block.setType(Material.AIR);
 			event.setCancelled(true);
 		}
