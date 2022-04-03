@@ -1,4 +1,4 @@
-name: Among_Hat_Build_7
+name: Among_Hat_Release
 author: Get
 description: Hallo
 version: 1.18.2
@@ -6,63 +6,63 @@ version: 1.18.2
 main: com.minecraft.game.amonghat.th.A1
 
 commands:
-  banana:
+  hbanana:
     description: blahblahblah
-    usage: /banana
-  black:
+    usage: /hbanana
+  hblack:
     description: blahblahblah
-    usage: /black
-  blue:
+    usage: /hblack
+  hblue:
     description: blahblahblah
-    usage: /blue
-  brown:
+    usage: /hblue
+  hbrown:
     description: blahblahblah
-    usage: /brown
-  coral:
+    usage: /hbrown
+  hcoral:
     description: blahblahblah
-    usage: /coral
-  cyan:
+    usage: /hcoral
+  hcyan:
     description: blahblahblah
-    usage: /cyan
-  fortegreen:
+    usage: /hcyan
+  hfortegreen:
     description: blahblahblah
-    usage: /fortegreen //
-  gray:
+    usage: /hfortegreen
+  hgray:
     description: blahblahblah
-    usage: /gray
-  green:
+    usage: /hgray
+  hgreen:
     description: blahblahblah
-    usage: /green
-  lime:
+    usage: /hgreen
+  hlime:
     description: blahblahblah
-    usage: /lime
-  maloon:
+    usage: /hlime
+  hmaloon:
     description: blahblahblah
-    usage: /maloon
-  olive:
+    usage: /hmaloon
+  holive:
     description: blahblahblah
-    usage: /olive
-  orange:
+    usage: /holive
+  horange:
     description: blahblahblah
-    usage: /orange
-  pink:
+    usage: /horange
+  hpink:
     description: blahblahblah
-    usage: /pink
-  purple:
+    usage: /hpink
+  hpurple:
     description: blahblahblah
-    usage: /purple
-  red:
+    usage: /hpurple
+  hred:
     description: blahblahblah
-    usage: /red
-  rose:
+    usage: /hred
+  hrose:
     description: blahblahblah
-    usage: /rose
-  tan:
+    usage: /hrose
+  htan:
     description: blahblahblah
-    usage: /tan
-  white:
+    usage: /htan
+  hwhite:
     description: blahblahblah
-    usage: /white
-  yellow:
+    usage: /hwhite
+  hyellow:
     description: blahblahblah
-    usage: /yellow
+    usage: /hyellow

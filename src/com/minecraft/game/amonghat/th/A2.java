@@ -18,64 +18,64 @@ public class A2 implements CommandExecutor {
 	    } 
 	    Player player = (Player)sender;
 	    if (sender.hasPermission("op")){
-	    	if (cmd.getName().equalsIgnoreCase("banana")) 
+	    	if (cmd.getName().equalsIgnoreCase("hbanana")) 
 	    		player.getInventory().addItem(C.banana);
 	    	
-	    		if (cmd.getName().equalsIgnoreCase("black")) {
+	    		if (cmd.getName().equalsIgnoreCase("hblack")) {
 	    			player.getInventory().addItem(C.black);
 	    		}
-	    		if (cmd.getName().equalsIgnoreCase("blue")) {
+	    		if (cmd.getName().equalsIgnoreCase("hblue")) {
 	    			player.getInventory().addItem(C.blue);
 	    		}
-	    		if (cmd.getName().equalsIgnoreCase("brown")) {
+	    		if (cmd.getName().equalsIgnoreCase("hbrown")) {
 	    			player.getInventory().addItem(C.brown);
 	    		}
-	    		if (cmd.getName().equalsIgnoreCase("coral")) {
+	    		if (cmd.getName().equalsIgnoreCase("hcoral")) {
 	    			player.getInventory().addItem(C.coral);
 	    		}
-	    		if (cmd.getName().equalsIgnoreCase("cyan")) {
+	    		if (cmd.getName().equalsIgnoreCase("hcyan")) {
 	    			player.getInventory().addItem(C.cyan);
 	    		}
-	    		if (cmd.getName().equalsIgnoreCase("fortegreen")) {
+	    		if (cmd.getName().equalsIgnoreCase("hfortegreen")) {
 	    			player.getInventory().addItem(C.fortegreen);
 	    		}
-	    		if (cmd.getName().equalsIgnoreCase("gray")) {
+	    		if (cmd.getName().equalsIgnoreCase("hgray")) {
 	    			player.getInventory().addItem(C.gray);
 	    		}
-	    		if (cmd.getName().equalsIgnoreCase("green")) {
+	    		if (cmd.getName().equalsIgnoreCase("hgreen")) {
 	    			player.getInventory().addItem(C.green);
 	    		}
-	    		if (cmd.getName().equalsIgnoreCase("lime")) {
+	    		if (cmd.getName().equalsIgnoreCase("hlime")) {
 	    			player.getInventory().addItem(C.lime);
 	    		}
-	    		if (cmd.getName().equalsIgnoreCase("maloon")) {
+	    		if (cmd.getName().equalsIgnoreCase("hmaloon")) {
 	    			player.getInventory().addItem(C.maloon);
 	    		}
-	    		if (cmd.getName().equalsIgnoreCase("olive")) {
+	    		if (cmd.getName().equalsIgnoreCase("holive")) {
 	    			player.getInventory().addItem(C.olive);
 	    		}
-	    		if (cmd.getName().equalsIgnoreCase("orange")) {
+	    		if (cmd.getName().equalsIgnoreCase("horange")) {
 	    			player.getInventory().addItem(C.orange);
 	    		}
-	    		if (cmd.getName().equalsIgnoreCase("pink")) {
+	    		if (cmd.getName().equalsIgnoreCase("hpink")) {
 	    			player.getInventory().addItem(C.pink);
 	    		}
-	    		if (cmd.getName().equalsIgnoreCase("purple")) {
+	    		if (cmd.getName().equalsIgnoreCase("hpurple")) {
 	    			player.getInventory().addItem(C.purple);
 	    		}
-	    		if (cmd.getName().equalsIgnoreCase("red")) {
+	    		if (cmd.getName().equalsIgnoreCase("hred")) {
 	    			player.getInventory().addItem(C.red);
 	    		}
-	    		if (cmd.getName().equalsIgnoreCase("rose")) {
+	    		if (cmd.getName().equalsIgnoreCase("hrose")) {
 	    			player.getInventory().addItem(C.rose);
 	    		}
-	    		if (cmd.getName().equalsIgnoreCase("tan")) {
+	    		if (cmd.getName().equalsIgnoreCase("htan")) {
 	    			player.getInventory().addItem(C.tan);
 	    		}
-	    		if (cmd.getName().equalsIgnoreCase("white")) {
+	    		if (cmd.getName().equalsIgnoreCase("hwhite")) {
 	    			player.getInventory().addItem(C.white);
 	    		}    		
-	    		if (cmd.getName().equalsIgnoreCase("yellow")) {
+	    		if (cmd.getName().equalsIgnoreCase("hyellow")) {
 	    			player.getInventory().addItem(C.yellow);
 	    		}
 	    }
