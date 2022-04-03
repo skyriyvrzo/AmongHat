@@ -21,7 +21,7 @@ public class A1 extends JavaPlugin {
 		    this.getCommand("maloon").setExecutor(new A2());
 		    this.getCommand("olive").setExecutor(new A2());
 		    this.getCommand("orange").setExecutor(new A2());
-		    this.getCommand("ping").setExecutor(new A2());
+		    this.getCommand("pink").setExecutor(new A2());
 		    this.getCommand("purple").setExecutor(new A2());
 		    this.getCommand("red").setExecutor(new A2());
 		    this.getCommand("rose").setExecutor(new A2());
@@ -32,5 +32,6 @@ public class A1 extends JavaPlugin {
 		    
 		    this.getServer().getPluginManager().registerEvents(new E(), this);
 	  }
+	  
 	  public void onDisable() {}
 }

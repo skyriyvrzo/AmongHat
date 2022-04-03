@@ -1,4 +1,4 @@
-name: Among Hat
+name: Among_Hat_Build_6
 author: Get
 description: Hallo
 version: 1.18.2
@@ -11,7 +11,7 @@ commands:
     usage: /banana
   black:
     description: blahblahblah
-    usage: /black  
+    usage: /black
   blue:
     description: blahblahblah
     usage: /blue
@@ -23,10 +23,10 @@ commands:
     usage: /coral
   cyan:
     description: blahblahblah
-    usage: /cyan    
+    usage: /cyan
   fortegreen:
     description: blahblahblah
-    usage: /fortegreen
+    usage: /fortegreen //
   gray:
     description: blahblahblah
     usage: /gray
@@ -41,7 +41,7 @@ commands:
     usage: /maloon
   olive:
     description: blahblahblah
-    usage: /olive    
+    usage: /olive
   orange:
     description: blahblahblah
     usage: /orange
@@ -53,16 +53,16 @@ commands:
     usage: /purple
   red:
     description: blahblahblah
-    usage: /red    
+    usage: /red
   rose:
     description: blahblahblah
     usage: /rose
   tan:
     description: blahblahblah
-    usage: /tan    
+    usage: /tan
   white:
     description: blahblahblah
     usage: /white
   yellow:
     description: blahblahblah
-    usage: /yellow    
+    usage: /yellow

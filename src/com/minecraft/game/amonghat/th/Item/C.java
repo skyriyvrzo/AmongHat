@@ -94,9 +94,9 @@ public class C {
 	private static void CreateFortegreen() {
 		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
 		ItemMeta meta = item.getItemMeta();
-		meta.setDisplayName("§dBlue Among Hat");
+		meta.setDisplayName("§dFortegreen Among Hat");
 		item.setItemMeta(meta);
-		blue = item;
+		fortegreen = item;
 	}
 	private static void CreateGray() {
 		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
