@@ -32,4 +32,5 @@ public class A1 extends JavaPlugin {
 		    
 		    this.getServer().getPluginManager().registerEvents(new E(), this);
 	  }
+	  public void onDisable() {}
 }
