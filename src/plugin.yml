@@ -3,7 +3,7 @@ author: Get
 description: Hallo
 version: 1.19
 
-main: com.minecraft.game.amonghat.th.A1
+main: com.minecraft.game.amonghat.th.A
 
 commands:
   hbanana:
