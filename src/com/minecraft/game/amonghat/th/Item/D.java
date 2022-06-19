@@ -11,7 +11,7 @@ import org.bukkit.inventory.meta.ItemMeta;
 
 
 
-public class E implements Listener {
+public class D implements Listener {
 		
 	@EventHandler
 	public void blockPlace(BlockPlaceEvent event) {
@@ -22,7 +22,7 @@ public class E implements Listener {
 		Block block = event.getBlock();
 		
 
-		if(meta.getLore().contains("§9Among Hat")) {
+		if(meta.getLore().contains("ï¿½9Among Hat")) {
 			block.setType(Material.AIR);
 			event.setCancelled(true);
 		}

@@ -6,9 +6,9 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import com.minecraft.game.amonghat.th.Item.C;
 
-public class A2 implements CommandExecutor {
+public class B implements CommandExecutor {
 	
-	  String prefix = "§7§l(§b§lAmong§d§lHat§7§l)";
+	  String prefix = "Â§7Â§l(Â§bÂ§lAmongÂ§dÂ§lHatÂ§7Â§l)";
 
 	  
 	  public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
@@ -80,7 +80,7 @@ public class A2 implements CommandExecutor {
 	    		}
 	    }
 	      else {
-	          sender.sendMessage(this.prefix + " §6sorry, but you do not have permission to perform this command. Please contack the server administrators if you believe that this is a mistake.");
+	          sender.sendMessage(this.prefix + " Â§6sorry, but you do not have permission to perform this command. Please contack the server administrators if you believe that this is a mistake.");
 	      }
 	    return true;
 	  }
