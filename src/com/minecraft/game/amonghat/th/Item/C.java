@@ -56,7 +56,7 @@ public class C {
 	private static void CreateBanana() {
 		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
 		ItemMeta meta = item.getItemMeta();
-		meta.setDisplayName("Banana Among Hat");
+		meta.setDisplayName(ChatColor.BOLD+"Banana Among Hat");
 		List<String> lore = new ArrayList<>();
 		lore.add(ChatColor.BLUE+"Among Hat");
 		meta.setLore(lore);
@@ -66,7 +66,7 @@ public class C {
 	private static void CreateBlack() {
 		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
 		ItemMeta meta = item.getItemMeta();
-		meta.setDisplayName("Black Among Hat");
+		meta.setDisplayName(ChatColor.BOLD+"Black Among Hat");
 		List<String> lore = new ArrayList<>();
 		lore.add(ChatColor.BLUE+"Among Hat");
 		meta.setLore(lore);
@@ -76,7 +76,7 @@ public class C {
 	private static void CreateBlue() {
 		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
 		ItemMeta meta = item.getItemMeta();
-		meta.setDisplayName("Blue Among Hat");
+		meta.setDisplayName(ChatColor.BOLD+"Blue Among Hat");
 		List<String> lore = new ArrayList<>();
 		lore.add(ChatColor.BLUE+"Among Hat");
 		meta.setLore(lore);
@@ -86,7 +86,7 @@ public class C {
 	private static void CreateBrown() {
 		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
 		ItemMeta meta = item.getItemMeta();
-		meta.setDisplayName("Brown Among Hat");
+		meta.setDisplayName(ChatColor.BOLD+"Brown Among Hat");
 		List<String> lore = new ArrayList<>();
 		lore.add(ChatColor.BLUE+"Among Hat");
 		meta.setLore(lore);
@@ -96,7 +96,7 @@ public class C {
 	private static void CreateCoral() {
 		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
 		ItemMeta meta = item.getItemMeta();
-		meta.setDisplayName("Coral Among Hat");
+		meta.setDisplayName(ChatColor.BOLD+"Coral Among Hat");
 		List<String> lore = new ArrayList<>();
 		lore.add(ChatColor.BLUE+"Among Hat");
 		meta.setLore(lore);
@@ -106,7 +106,7 @@ public class C {
 	private static void CreateCyan() {
 		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
 		ItemMeta meta = item.getItemMeta();
-		meta.setDisplayName("Cyan Among Hat");
+		meta.setDisplayName(ChatColor.BOLD+"Cyan Among Hat");
 		List<String> lore = new ArrayList<>();
 		lore.add(ChatColor.BLUE+"Among Hat");
 		meta.setLore(lore);
@@ -116,7 +116,7 @@ public class C {
 	private static void CreateFortegreen() {
 		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
 		ItemMeta meta = item.getItemMeta();
-		meta.setDisplayName("Fortegreen Among Hat");
+		meta.setDisplayName(ChatColor.BOLD+"Fortegreen Among Hat");
 		List<String> lore = new ArrayList<>();
 		lore.add(ChatColor.BLUE+"Among Hat");
 		meta.setLore(lore);
@@ -126,7 +126,7 @@ public class C {
 	private static void CreateGray() {
 		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
 		ItemMeta meta = item.getItemMeta();
-		meta.setDisplayName("Gray Among Hat");
+		meta.setDisplayName(ChatColor.BOLD+"Gray Among Hat");
 		List<String> lore = new ArrayList<>();
 		lore.add(ChatColor.BLUE+"Among Hat");
 		meta.setLore(lore);
@@ -136,7 +136,7 @@ public class C {
 	private static void CreateGreen() {
 		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
 		ItemMeta meta = item.getItemMeta();
-		meta.setDisplayName("Green Among Hat");
+		meta.setDisplayName(ChatColor.BOLD+"Green Among Hat");
 		List<String> lore = new ArrayList<>();
 		lore.add(ChatColor.BLUE+"Among Hat");
 		meta.setLore(lore);
@@ -146,7 +146,7 @@ public class C {
 	private static void CreateLime() {
 		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
 		ItemMeta meta = item.getItemMeta();
-		meta.setDisplayName("Lime Among Hat");
+		meta.setDisplayName(ChatColor.BOLD+"Lime Among Hat");
 		List<String> lore = new ArrayList<>();
 		lore.add(ChatColor.BLUE+"Among Hat");
 		meta.setLore(lore);
@@ -156,7 +156,7 @@ public class C {
 	private static void CreateMaloon() {
 		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
 		ItemMeta meta = item.getItemMeta();
-		meta.setDisplayName("Maloon Among Hat");
+		meta.setDisplayName(ChatColor.BOLD+"Maloon Among Hat");
 		List<String> lore = new ArrayList<>();
 		lore.add(ChatColor.BLUE+"Among Hat");
 		meta.setLore(lore);
@@ -166,7 +166,7 @@ public class C {
 	private static void CreateOlive() {
 		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
 		ItemMeta meta = item.getItemMeta();
-		meta.setDisplayName("Olive Among Hat");
+		meta.setDisplayName(ChatColor.BOLD+"Olive Among Hat");
 		List<String> lore = new ArrayList<>();
 		lore.add(ChatColor.BLUE+"Among Hat");
 		meta.setLore(lore);
@@ -176,7 +176,7 @@ public class C {
 	private static void CreateOrange() {
 		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
 		ItemMeta meta = item.getItemMeta();
-		meta.setDisplayName("Orange Among Hat");
+		meta.setDisplayName(ChatColor.BOLD+"Orange Among Hat");
 		List<String> lore = new ArrayList<>();
 		lore.add(ChatColor.BLUE+"Among Hat");
 		meta.setLore(lore);
@@ -186,7 +186,7 @@ public class C {
 	private static void CreatePink() {
 		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
 		ItemMeta meta = item.getItemMeta();
-		meta.setDisplayName("Pink Among Hat");
+		meta.setDisplayName(ChatColor.BOLD+"Pink Among Hat");
 		List<String> lore = new ArrayList<>();
 		lore.add(ChatColor.BLUE+"Among Hat");
 		meta.setLore(lore);
@@ -196,7 +196,7 @@ public class C {
 	private static void CreatePurple() {
 		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
 		ItemMeta meta = item.getItemMeta();
-		meta.setDisplayName("Purple Among Hat");
+		meta.setDisplayName(ChatColor.BOLD+"Purple Among Hat");
 		List<String> lore = new ArrayList<>();
 		lore.add(ChatColor.BLUE+"Among Hat");
 		meta.setLore(lore);
@@ -206,7 +206,7 @@ public class C {
 	private static void CreateRed() {
 		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
 		ItemMeta meta = item.getItemMeta();
-		meta.setDisplayName("Red Among Hat");
+		meta.setDisplayName(ChatColor.BOLD+"Red Among Hat");
 		List<String> lore = new ArrayList<>();
 		lore.add(ChatColor.BLUE+"Among Hat");
 		meta.setLore(lore);
@@ -216,7 +216,7 @@ public class C {
 	private static void CreateRose() {
 		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
 		ItemMeta meta = item.getItemMeta();
-		meta.setDisplayName("Rose Among Hat");
+		meta.setDisplayName(ChatColor.BOLD+"Rose Among Hat");
 		List<String> lore = new ArrayList<>();
 		lore.add(ChatColor.BLUE+"Among Hat");
 		meta.setLore(lore);
@@ -226,7 +226,7 @@ public class C {
 	private static void CreateTan() {
 		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
 		ItemMeta meta = item.getItemMeta();
-		meta.setDisplayName("Tan Among Hat");
+		meta.setDisplayName(ChatColor.BOLD+"Tan Among Hat");
 		List<String> lore = new ArrayList<>();
 		lore.add(ChatColor.BLUE+"Among Hat");
 		meta.setLore(lore);
@@ -236,7 +236,7 @@ public class C {
 	private static void CreateWhite() {
 		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
 		ItemMeta meta = item.getItemMeta();
-		meta.setDisplayName("White Among Hat");
+		meta.setDisplayName(ChatColor.BOLD+"White Among Hat");
 		List<String> lore = new ArrayList<>();
 		lore.add(ChatColor.BLUE+"Among Hat");
 		meta.setLore(lore);
@@ -246,7 +246,7 @@ public class C {
 	private static void CreateYellow() {
 		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
 		ItemMeta meta = item.getItemMeta();
-		meta.setDisplayName("Yellow Among Hat");
+		meta.setDisplayName(ChatColor.BOLD+"Yellow Among Hat");
 		List<String> lore = new ArrayList<>();
 		lore.add(ChatColor.BLUE+"Among Hat");
 		meta.setLore(lore);

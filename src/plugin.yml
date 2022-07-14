@@ -66,3 +66,6 @@ commands:
   hyellow:
     description: blahblahblah
     usage: /hyellow
+  hatall:
+    description: blahblahblah
+    usage: /hatall
