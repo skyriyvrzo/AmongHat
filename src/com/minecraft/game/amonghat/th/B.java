@@ -6,9 +6,11 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import com.minecraft.game.amonghat.th.Item.C;
 
+import net.md_5.bungee.api.ChatColor;
+
 public class B implements CommandExecutor {
 	
-	  String prefix = "§7§l(§b§lAmong§d§lHat§7§l)";
+	  String prefix = ChatColor.GRAY+""+ChatColor.BOLD+"("+ChatColor.AQUA+""+ChatColor.BOLD+"Among"+ChatColor.LIGHT_PURPLE+""+ChatColor.BOLD+"Hat"+ChatColor.GRAY+""+ChatColor.BOLD+")"; // "§7§l(§b§lAmong§d§lHat§7§l)"
 
 	  
 	  public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
@@ -80,7 +82,7 @@ public class B implements CommandExecutor {
 	    		}
 	    }
 	      else {
-	          sender.sendMessage(this.prefix + " §6sorry, but you do not have permission to perform this command. Please contack the server administrators if you believe that this is a mistake.");
+	          sender.sendMessage(this.prefix + ChatColor.GOLD+"sorry, but you do not have permission to perform this command. Please contack the server administrators if you believe that this is a mistake.");
 	      }
 	    return true;
 	  }

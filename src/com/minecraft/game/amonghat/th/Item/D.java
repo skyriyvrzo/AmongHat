@@ -1,5 +1,6 @@
 package com.minecraft.game.amonghat.th.Item;
 
+import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
@@ -22,7 +23,7 @@ public class D implements Listener {
 		Block block = event.getBlock();
 		
 
-		if(meta.getLore().contains("�9Among Hat")) {
+		if(meta.getLore().contains(ChatColor.BLUE+"Among Hat")) {
 			block.setType(Material.AIR);
 			event.setCancelled(true);
 		}
