@@ -29,6 +29,13 @@ public class A extends JavaPlugin {
 		    this.getCommand("hwhite").setExecutor(new B());
 		    this.getCommand("hyellow").setExecutor(new B());
 		    this.getCommand("hatall").setExecutor(new B());
+		    
+		    this.getCommand("hbigglasses").setExecutor(new B());
+		    this.getCommand("hcatears").setExecutor(new B());
+		    this.getCommand("hglasses").setExecutor(new B());
+		    this.getCommand("hthuglifeglasses").setExecutor(new B());
+		    this.getCommand("accessoryall").setExecutor(new B());
+		    
 
 		    
 		    this.getServer().getPluginManager().registerEvents(new D(), this);

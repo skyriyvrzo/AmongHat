@@ -30,6 +30,11 @@ public class C {
 	public static ItemStack white;
 	public static ItemStack yellow;
 	
+	public static ItemStack big_glasses;
+	public static ItemStack cat_ears;
+	public static ItemStack glasses;
+	public static ItemStack thug_life_glasses;
+	
 	public static void init() {
 		CreateBanana();
 		CreateBlack();
@@ -51,6 +56,11 @@ public class C {
 		CreateTan();
 		CreateWhite();
 		CreateYellow();
+		
+		Createbigglasses();
+		Createcatears();
+		Createglasses();
+		Createthuglifeglasses();
 	}
 
 	private static void CreateBanana() {
@@ -252,5 +262,48 @@ public class C {
 		meta.setLore(lore);
 		item.setItemMeta(meta);
 		yellow = item;
+	}
+	
+	
+	private static void Createbigglasses() {
+		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
+		ItemMeta meta = item.getItemMeta();
+		meta.setDisplayName(ChatColor.BOLD+"Big Glasses");
+		List<String> lore = new ArrayList<>();
+		lore.add(ChatColor.BLUE+"Among Hat");
+		meta.setLore(lore);
+		item.setItemMeta(meta);
+		big_glasses = item;
+	}
+	
+	private static void Createcatears() {
+		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
+		ItemMeta meta = item.getItemMeta();
+		meta.setDisplayName(ChatColor.BOLD+"Cat Ears");
+		List<String> lore = new ArrayList<>();
+		lore.add(ChatColor.BLUE+"Among Hat");
+		meta.setLore(lore);
+		item.setItemMeta(meta);
+		cat_ears = item;
+	}
+	private static void Createglasses() {
+		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
+		ItemMeta meta = item.getItemMeta();
+		meta.setDisplayName(ChatColor.BOLD+"Glasses");
+		List<String> lore = new ArrayList<>();
+		lore.add(ChatColor.BLUE+"Among Hat");
+		meta.setLore(lore);
+		item.setItemMeta(meta);
+		glasses = item;
+	}
+	private static void Createthuglifeglasses() {
+		ItemStack item = new ItemStack(Material.CARVED_PUMPKIN, 1);
+		ItemMeta meta = item.getItemMeta();
+		meta.setDisplayName(ChatColor.BOLD+"Thug Life Glasses");
+		List<String> lore = new ArrayList<>();
+		lore.add(ChatColor.BLUE+"Among Hat");
+		meta.setLore(lore);
+		item.setItemMeta(meta);
+		thug_life_glasses = item;
 	}
 }
