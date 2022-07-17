@@ -70,20 +70,3 @@ commands:
     description: blahblahblah
     usage: /hatall
     
-  hbigglasses:
-    description: blahblahblah
-    usage: /hbigglasses
-  hcatears:
-    description: blahblahblah
-    usage: /hcatears
-  hglasses:
-    description: blahblahblah
-    usage: /hglasses
-  hthuglifeglasses:
-    description: blahblahblah
-    usage: /hthuglifeglasses
-  accessoryall:
-    description: blahblahblah
-    usage: /accessoryall                    
-    
-    
