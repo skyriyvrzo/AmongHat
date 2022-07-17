@@ -84,27 +84,6 @@ public class B implements CommandExecutor {
 	    			player.getInventory().addItem(C.banana,C.black,C.blue,C.brown,C.coral,C.cyan,C.fortegreen,C.gray,C.green,C.lime,C.maloon,C.olive,C.orange,C.pink,C.purple,C.red,C.rose,C.tan,C.white,C.yellow);
 	    		}
 	    		
-	    		if (cmd.getName().equalsIgnoreCase("hbigglasses")) {
-	    			player.getInventory().addItem(C.big_glasses);
-	    		}
-	    		if (cmd.getName().equalsIgnoreCase("hcatears")) {
-	    			player.getInventory().addItem(C.cat_ears);
-	    		}
-	    		if (cmd.getName().equalsIgnoreCase("hglasses")) {
-	    			player.getInventory().addItem(C.glasses);
-	    		}
-	    		if (cmd.getName().equalsIgnoreCase("hthuglifeglasses")) {
-	    			player.getInventory().addItem(C.thug_life_glasses);
-	    		}
-	    		if (cmd.getName().equalsIgnoreCase("accessoryall")) {
-	    			player.getInventory().addItem(C.big_glasses,C.cat_ears,C.glasses,C.thug_life_glasses);
-	    		}
-	    		
-
-	    		
-	    		
-	    		
-	    		
 	    }
 	      else {
 	          sender.sendMessage(this.prefix + ChatColor.GOLD+"sorry, but you do not have permission to perform this command. Please contack the server administrators if you believe that this is a mistake.");
