@@ -86,7 +86,7 @@ public class B implements CommandExecutor {
 	    		
 	    }
 	      else {
-	          sender.sendMessage(this.prefix + ChatColor.GOLD+"sorry, but you do not have permission to perform this command. Please contack the server administrators if you believe that this is a mistake.");
+	          sender.sendMessage(this.prefix + ChatColor.DARK_AQUA+" sorry, but you do not have permission to perform this command. Please contack the server administrators if you believe that this is a mistake.");
 	      }
 	    return true;
 	  }
